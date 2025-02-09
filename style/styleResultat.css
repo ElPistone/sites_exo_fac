@@ -92,40 +92,39 @@ form {
 }
 
 /* Style du bouton */
-button {
-    background: #007bff;
+input[type='button'] {
     border: none;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    width: 40%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 15px;
 }
-button[type="submit"] {
-    background-color: blue;
-    margin-right: 25px;
-}
-button[type="reset"] {
-    background-color: red;
-    margin-left: 26px;
-}
-
-button[type="submit"]:hover {
-    background: rgb(96, 86, 162);
-    transition: 1.5s;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
-button[type="reset"]:hover {
-    transition: 1.5s;
-    color: red;
-    text-transform: uppercase;
-    border-radius: 5px;
-
-}
-button a {
-    text-decoration: none;
+#submit {
+    background: blue;
     color: white;
+    width: 40%;
+    margin: 10px;
+}
+#reset {
+    background-color: rgb(208, 78, 78);
+    color: white;
+    width: 40%;
+    margin: 10px;
+}
+#submit:hover {
+    background: green;
+    color: white;
+    transition: 1s;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+#reset:hover {
+    background: red;
+    color: white;
+    transition: 1s;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 /*================== FOOTER ============*/
