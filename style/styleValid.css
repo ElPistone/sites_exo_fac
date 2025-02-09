@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+/*================== HEADER ============*/
+header {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    float: right;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+nav {
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+}
+ nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #d81a1a;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    border-radius: 5px;
+    transition: 1s;
+    text-shadow: 5px -24px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: red;
+}
+/*================== MAIN =================*/
+main {
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-bottom: 120px;
+    margin-left: 400px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+}
+main h2 {
+    margin: 20px;
+    text-align: center;
+}
+main p {
+    text-align: center;
+}
+main > p:first-of-type {
+    color: blue;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0ff9f9;
+    padding-top: 10px;
+    font-size: 20px;
+    margin: 5px 25px ;
+    height: 30px;
+}
+main > p:last-of-type {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*================== FOOTER ============*/
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+/* Partie supérieure du footer (réseaux sociaux) */
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #444;
+}
+
+.footer-top p {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-top a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-top a:hover {
+    color: #007bff;
+}
+
+/* Contenu principal du footer */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Sections d'information */
+.footer-section {
+    max-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Logo et informations */
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Partie inférieure du footer */
+.footer-bottom {
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    font-size: 14px;
+}
+
